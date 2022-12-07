@@ -1,0 +1,19 @@
+
+public class Main {
+    public static void main(String[] args) {
+        potato mipotato = new potato();
+        mipotato.quitarbrazo();
+        mipotato.quitarbrazo();
+        mipotato.quitarbrazo();
+        System.out.println(mipotato.brazo);
+    }
+
+
+
+}
+class potato {
+    public int brazo = 0;
+    public void quitarbrazo(){
+        this.brazo--;
+    }
+}

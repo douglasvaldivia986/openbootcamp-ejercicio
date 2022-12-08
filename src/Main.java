@@ -5,10 +5,16 @@ public class Main {
         micoche.aumentarpuertas();
         micoche.aumentarpuertas();
         System.out.println(micoche.puertas);
+
+      suma(10,30,50);
     }
+    public static void suma(int a, int b , int c)
 
-
-
+    {
+      int resultado;
+      resultado = a+b+c ;
+        System.out.println(resultado);
+    }
 }
 class coche {
     public int puertas = 4;
